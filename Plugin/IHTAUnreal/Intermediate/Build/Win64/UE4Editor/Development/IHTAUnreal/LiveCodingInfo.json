@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.IHTAUnreal.cpp.obj": [
+			"IHTAUnreal.cpp.obj",
+			"IHTAUnrealFileWriter.cpp.obj"
+		],
+		"Module.IHTAUnreal.gen.cpp.obj": [
+			"IHTAUnreal.init.gen.cpp.obj",
+			"IHTAUnrealFileWriter.gen.cpp.obj"
+		]
+	}
+}

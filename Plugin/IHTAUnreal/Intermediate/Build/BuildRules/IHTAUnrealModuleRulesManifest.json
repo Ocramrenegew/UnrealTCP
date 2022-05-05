@@ -1,0 +1,6 @@
+{
+	"SourceFiles": [
+		"\\\\verdi\\exchange\\wegener\\UnrealTCP\\Unreal\\UnrealTCP\\Plugins\\IHTAUnreal\\Source\\IHTAUnreal\\IHTAUnreal.Build.cs"
+	],
+	"EngineVersion": "4.27.2"
+}

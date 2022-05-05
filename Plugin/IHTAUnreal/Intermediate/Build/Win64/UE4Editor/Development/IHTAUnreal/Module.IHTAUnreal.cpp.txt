@@ -1,0 +1,6 @@
+\\verdi\exchange\wegener\UnrealTCP\Unreal\UnrealTCP\Plugins\IHTAUnreal\Intermediate\Build\Win64\UE4Editor\Development\IHTAUnreal\Definitions.IHTAUnreal.h
+//verdi/exchange/wegener/UnrealTCP/Unreal/UnrealTCP/Plugins/IHTAUnreal/Source/IHTAUnreal/Private/IHTAUnreal.cpp
+\\verdi\exchange\wegener\UnrealTCP\Unreal\UnrealTCP\Plugins\IHTAUnreal\Source\IHTAUnreal\Public\IHTAUnreal.h
+//verdi/exchange/wegener/UnrealTCP/Unreal/UnrealTCP/Plugins/IHTAUnreal/Source/IHTAUnreal/Private/IHTAUnrealFileWriter.cpp
+\\verdi\exchange\wegener\UnrealTCP\Unreal\UnrealTCP\Plugins\IHTAUnreal\Source\IHTAUnreal\Public\IHTAUnrealFileWriter.h
+\\verdi\exchange\wegener\UnrealTCP\Unreal\UnrealTCP\Plugins\IHTAUnreal\Intermediate\Build\Win64\UE4Editor\Inc\IHTAUnreal\IHTAUnrealFileWriter.generated.h

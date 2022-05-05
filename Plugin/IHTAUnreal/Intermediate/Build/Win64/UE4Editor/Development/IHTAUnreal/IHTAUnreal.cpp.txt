@@ -1,0 +1,2 @@
+\\verdi\exchange\wegener\UnrealTCP\Unreal\UnrealTCP\Plugins\IHTAUnreal\Intermediate\Build\Win64\UE4Editor\Development\IHTAUnreal\Definitions.IHTAUnreal.h
+\\verdi\exchange\wegener\UnrealTCP\Unreal\UnrealTCP\Plugins\IHTAUnreal\Source\IHTAUnreal\Public\IHTAUnreal.h
