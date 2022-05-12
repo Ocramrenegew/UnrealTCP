@@ -6,15 +6,16 @@ Data transmission is provided via a TCP connection with Matlab acting as a serve
 - A Matlab application allowing for control of VR experiments
 
 ## Contents
-1. [Requirements](https://github.com/Ocramrenegew/UnrealTCP/new/main?readme=1#requirements)
-2. Matlab
+1. [Requirements](https://github.com/Ocramrenegew/UnrealTCP#requirements)
+2. [Matlab](https://github.com/Ocramrenegew/UnrealTCP#matlab)
    - Connection Class
      - Message Format 
    - Test Application
-3. Unreal Engine
+3. [Unreal Engine](https://github.com/Ocramrenegew/UnrealTCP#unreal)
    - Unreal Overview
    - TCP Socket Plugin
    - IHTAUnreal Plugin
+   - Adding Plugins to existing projects
 
 ## Requirements
 - [Unreal Engine version 4.27](https://www.unrealengine.com/en-US/)
