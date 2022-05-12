@@ -15,7 +15,6 @@ Data transmission is provided via a TCP connection with Matlab acting as a serve
    - Unreal Overview
    - TCP Socket Plugin
    - IHTAUnreal Plugin
-   - Adding Plugins to existing projects
 
 ## Requirements
 - [Unreal Engine version 4.27](https://www.unrealengine.com/en-US/)
