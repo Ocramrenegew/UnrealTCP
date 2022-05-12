@@ -103,6 +103,7 @@ The test application is used to control the rest running in unreal by sending/re
 The GUI consists of two main panels:
 - **The left panel** is used for setting up tests(TestID, server config, etc...)
 - **The right panel** is used to edit test parameters, most notably slider parameters
+![Test Application](/images/TestApp.png)
 
 **Setting up an experiment**
 
