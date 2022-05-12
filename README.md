@@ -147,9 +147,12 @@ A **C++ Actor** is an Actor that can be used normally in the Unreal Editor howev
 
 A **Function Library** allows users to create **UFUNCTIONS** that can be used via Blueprints. There are two main types of UFUNCTIONS:
 - A Blueprint callable function has an execution pin.
+
 ![Blueprint Callable](/images/BlueprintCallable.png)
 - A Blueprint pure function has no execution pin and will be called as soon as the application starts.
+
 ![Blueprint Pure](/images/BlueprintPure.png)
+
 UFUNCTIONS are created by marking a static function with the UFUNCTION marker:
 ```
 UFUNCTION([specifier1=setting1, specifier2,...])
