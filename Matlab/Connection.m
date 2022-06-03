@@ -37,7 +37,7 @@ classdef Connection < handle
                 portNr  double
             end
             obj.server = tcpserver(address, portNr, "ConnectionChangedFcn", @serverConnectedFcn, "Timeout", 5);
-            configureCallback(obj.server, "byte", 40, @(src, eventdata)serverCallbackFcn(src, eventdata, obj));
+            configureCallback(obj.server, "byte", 38, @(src, eventdata)serverCallbackFcn(src, eventdata, obj));
         end
 
         %Transforms data from byte arrays to singles
@@ -60,10 +60,10 @@ classdef Connection < handle
                     obj.slider_transformed_data{n, 6} = typecast(uint8(obj.slider_data(n,22:25)), 'single'); %Stepsize
                 end
                 obj.slider_transformed_data{n, 7} = uint8(obj.slider_data(n, 26));                           %Reset
-                obj.slider_transformed_data{n, 8} = uint8(obj.slider_data(n,30));                            %LevelState
-                attrID = uint8(obj.slider_data(n,34));
+                obj.slider_transformed_data{n, 8} = char(obj.slider_data(n,30:31));                            %LevelState
+                attrID = uint8(obj.slider_data(n,32));
                 obj.slider_transformed_data{n, 9} = char(attributes(attrID+1,:).Variables);                  %Attribute               
-                time = typecast(uint8(obj.slider_data(n,38:41)), 'single');
+                time = typecast(uint8(obj.slider_data(n,36:39)), 'single');
                 obj.slider_transformed_data{n, 10} = floor(time / 60);                                       %Min
                 obj.slider_transformed_data{n, 11} = mod(time, 60);                                          %Sec
             end
@@ -80,7 +80,7 @@ classdef Connection < handle
         %resets server
         function resetData(obj)
             flush(obj.server);
-            obj.slider_data = zeros(100000, 28);
+            obj.slider_data = zeros(100000, 37);
             obj.slider_data_count = 0;
         end
     end

@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeIHTAUnreal_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xD2A9925D,
+				0x3BDAA70D,
 				0x349DD952,
 				METADATA_PARAMS(nullptr, 0)
 			};

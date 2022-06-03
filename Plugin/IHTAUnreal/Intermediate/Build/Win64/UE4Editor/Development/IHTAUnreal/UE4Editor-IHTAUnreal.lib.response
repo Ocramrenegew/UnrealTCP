@@ -6,8 +6,8 @@
 /NAME:"UE4Editor-IHTAUnreal.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"\\verdi\exchange\wegener\UnrealTCP\Unreal\UnrealTCP\Intermediate\Build\Win64\UnrealTCPEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
-"\\verdi\exchange\wegener\UnrealTCP\Unreal\UnrealTCP\Plugins\IHTAUnreal\Intermediate\Build\Win64\UE4Editor\Development\IHTAUnreal\Module.IHTAUnreal.cpp.obj"
-"\\verdi\exchange\wegener\UnrealTCP\Unreal\UnrealTCP\Plugins\IHTAUnreal\Intermediate\Build\Win64\UE4Editor\Development\IHTAUnreal\Module.IHTAUnreal.gen.cpp.obj"
-"\\verdi\exchange\wegener\UnrealTCP\Unreal\UnrealTCP\Plugins\IHTAUnreal\Intermediate\Build\Win64\UE4Editor\Development\IHTAUnreal\Default.rc2.res"
-/OUT:"\\verdi\exchange\wegener\UnrealTCP\Unreal\UnrealTCP\Plugins\IHTAUnreal\Intermediate\Build\Win64\UE4Editor\Development\IHTAUnreal\UE4Editor-IHTAUnreal.lib"
+"\\verdi\exchange\wegener\UnrealTCP\ITA_Park_V1\Intermediate\Build\Win64\ITA_Park_V1Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"\\verdi\exchange\wegener\UnrealTCP\ITA_Park_V1\Plugins\IHTAUnreal\Intermediate\Build\Win64\UE4Editor\Development\IHTAUnreal\Module.IHTAUnreal.cpp.obj"
+"\\verdi\exchange\wegener\UnrealTCP\ITA_Park_V1\Plugins\IHTAUnreal\Intermediate\Build\Win64\UE4Editor\Development\IHTAUnreal\Module.IHTAUnreal.gen.cpp.obj"
+"\\verdi\exchange\wegener\UnrealTCP\ITA_Park_V1\Plugins\IHTAUnreal\Intermediate\Build\Win64\UE4Editor\Development\IHTAUnreal\Default.rc2.res"
+/OUT:"\\verdi\exchange\wegener\UnrealTCP\ITA_Park_V1\Plugins\IHTAUnreal\Intermediate\Build\Win64\UE4Editor\Development\IHTAUnreal\UE4Editor-IHTAUnreal.lib"

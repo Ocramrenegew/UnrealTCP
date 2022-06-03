@@ -40,3 +40,19 @@ bool UIHTAUnrealFileWriter::writeToFile(TArray<FRotator> rotations, TArray<FVect
 		return false;
 	}
 }
+
+TArray<FName> UIHTAUnrealFileWriter::shuffleArray(TArray<FName> Array)
+{
+	if (Array.Num() > 0)
+	{
+		for (int32 i = 0; i <= Array.Num() - 1; i++)
+		{
+			int32 rIndex = FMath::RandRange(i, Array.Num() - 1);
+			if (i != rIndex)
+			{
+				Array.Swap(i, rIndex);
+			}
+		}
+	}
+	return Array;
+}

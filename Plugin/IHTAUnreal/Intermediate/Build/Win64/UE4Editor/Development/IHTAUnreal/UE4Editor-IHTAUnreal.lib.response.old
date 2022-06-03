@@ -7,6 +7,7 @@
 /IGNORE:4221
 /NODEFAULTLIB
 "\\verdi\exchange\wegener\UnrealTCP\Unreal\UnrealTCP\Intermediate\Build\Win64\UnrealTCPEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
-"\\verdi\exchange\wegener\UnrealTCP\Unreal\UnrealTCP\Plugins\IHTAUnreal\Intermediate\Build\Win64\UE4Editor\Development\IHTAUnreal\IHTAUnreal.cpp.obj"
+"\\verdi\exchange\wegener\UnrealTCP\Unreal\UnrealTCP\Plugins\IHTAUnreal\Intermediate\Build\Win64\UE4Editor\Development\IHTAUnreal\Module.IHTAUnreal.cpp.obj"
+"\\verdi\exchange\wegener\UnrealTCP\Unreal\UnrealTCP\Plugins\IHTAUnreal\Intermediate\Build\Win64\UE4Editor\Development\IHTAUnreal\Module.IHTAUnreal.gen.cpp.obj"
 "\\verdi\exchange\wegener\UnrealTCP\Unreal\UnrealTCP\Plugins\IHTAUnreal\Intermediate\Build\Win64\UE4Editor\Development\IHTAUnreal\Default.rc2.res"
 /OUT:"\\verdi\exchange\wegener\UnrealTCP\Unreal\UnrealTCP\Plugins\IHTAUnreal\Intermediate\Build\Win64\UE4Editor\Development\IHTAUnreal\UE4Editor-IHTAUnreal.lib"

@@ -34,7 +34,8 @@
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN
 "\\verdi\exchange\wegener\UnrealTCP\Unreal\UnrealTCP\Intermediate\Build\Win64\UnrealTCPEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
-"\\verdi\exchange\wegener\UnrealTCP\Unreal\UnrealTCP\Plugins\IHTAUnreal\Intermediate\Build\Win64\UE4Editor\Development\IHTAUnreal\IHTAUnreal.cpp.obj"
+"\\verdi\exchange\wegener\UnrealTCP\Unreal\UnrealTCP\Plugins\IHTAUnreal\Intermediate\Build\Win64\UE4Editor\Development\IHTAUnreal\Module.IHTAUnreal.cpp.obj"
+"\\verdi\exchange\wegener\UnrealTCP\Unreal\UnrealTCP\Plugins\IHTAUnreal\Intermediate\Build\Win64\UE4Editor\Development\IHTAUnreal\Module.IHTAUnreal.gen.cpp.obj"
 "\\verdi\exchange\wegener\UnrealTCP\Unreal\UnrealTCP\Plugins\IHTAUnreal\Intermediate\Build\Win64\UE4Editor\Development\IHTAUnreal\Default.rc2.res"
 "C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Development\CoreUObject\UE4Editor-CoreUObject.lib"
 "C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\UE4Editor-Engine.lib"

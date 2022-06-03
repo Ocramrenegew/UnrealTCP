@@ -20,6 +20,14 @@ void EmptyLinkFunctionForGeneratedCodeIHTAUnrealFileWriter() {}
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FRotator();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 // End Cross Module References
+	DEFINE_FUNCTION(UIHTAUnrealFileWriter::execshuffleArray)
+	{
+		P_GET_TARRAY(FName,Z_Param_Array);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(TArray<FName>*)Z_Param__Result=UIHTAUnrealFileWriter::shuffleArray(Z_Param_Array);
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(UIHTAUnrealFileWriter::execwriteToFile)
 	{
 		P_GET_TARRAY(FRotator,Z_Param_rotations);
@@ -34,9 +42,53 @@ void EmptyLinkFunctionForGeneratedCodeIHTAUnrealFileWriter() {}
 	{
 		UClass* Class = UIHTAUnrealFileWriter::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
+			{ "shuffleArray", &UIHTAUnrealFileWriter::execshuffleArray },
 			{ "writeToFile", &UIHTAUnrealFileWriter::execwriteToFile },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_UIHTAUnrealFileWriter_shuffleArray_Statics
+	{
+		struct IHTAUnrealFileWriter_eventshuffleArray_Parms
+		{
+			TArray<FName> Array;
+			TArray<FName> ReturnValue;
+		};
+		static const UE4CodeGen_Private::FNamePropertyParams NewProp_Array_Inner;
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_Array;
+		static const UE4CodeGen_Private::FNamePropertyParams NewProp_ReturnValue_Inner;
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FNamePropertyParams Z_Construct_UFunction_UIHTAUnrealFileWriter_shuffleArray_Statics::NewProp_Array_Inner = { "Array", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UIHTAUnrealFileWriter_shuffleArray_Statics::NewProp_Array = { "Array", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(IHTAUnrealFileWriter_eventshuffleArray_Parms, Array), EArrayPropertyFlags::None, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FNamePropertyParams Z_Construct_UFunction_UIHTAUnrealFileWriter_shuffleArray_Statics::NewProp_ReturnValue_Inner = { "ReturnValue", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UIHTAUnrealFileWriter_shuffleArray_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(IHTAUnrealFileWriter_eventshuffleArray_Parms, ReturnValue), EArrayPropertyFlags::None, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UIHTAUnrealFileWriter_shuffleArray_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UIHTAUnrealFileWriter_shuffleArray_Statics::NewProp_Array_Inner,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UIHTAUnrealFileWriter_shuffleArray_Statics::NewProp_Array,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UIHTAUnrealFileWriter_shuffleArray_Statics::NewProp_ReturnValue_Inner,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UIHTAUnrealFileWriter_shuffleArray_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UIHTAUnrealFileWriter_shuffleArray_Statics::Function_MetaDataParams[] = {
+		{ "Category", "IHRAUnreal" },
+		{ "ModuleRelativePath", "Public/IHTAUnrealFileWriter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UIHTAUnrealFileWriter_shuffleArray_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UIHTAUnrealFileWriter, nullptr, "shuffleArray", nullptr, nullptr, sizeof(IHTAUnrealFileWriter_eventshuffleArray_Parms), Z_Construct_UFunction_UIHTAUnrealFileWriter_shuffleArray_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UIHTAUnrealFileWriter_shuffleArray_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UIHTAUnrealFileWriter_shuffleArray_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UIHTAUnrealFileWriter_shuffleArray_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UIHTAUnrealFileWriter_shuffleArray()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UIHTAUnrealFileWriter_shuffleArray_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_UIHTAUnrealFileWriter_writeToFile_Statics
 	{
@@ -115,6 +167,7 @@ void EmptyLinkFunctionForGeneratedCodeIHTAUnrealFileWriter() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_IHTAUnreal,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UIHTAUnrealFileWriter_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_UIHTAUnrealFileWriter_shuffleArray, "shuffleArray" }, // 3139176032
 		{ &Z_Construct_UFunction_UIHTAUnrealFileWriter_writeToFile, "writeToFile" }, // 1186087616
 	};
 #if WITH_METADATA
@@ -151,7 +204,7 @@ void EmptyLinkFunctionForGeneratedCodeIHTAUnrealFileWriter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UIHTAUnrealFileWriter, 3324839700);
+	IMPLEMENT_CLASS(UIHTAUnrealFileWriter, 480957556);
 	template<> IHTAUNREAL_API UClass* StaticClass<UIHTAUnrealFileWriter>()
 	{
 		return UIHTAUnrealFileWriter::StaticClass();

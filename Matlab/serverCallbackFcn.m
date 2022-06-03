@@ -13,7 +13,7 @@
 %   013 -> Headtracking speed
 %   014 -> Headtracking start time
 %
-   data = read(src, 40);
+   data = read(src, 38);
    switch char(data(1:4))
        case '00|' %ping
            writeline(src, "00");
@@ -23,7 +23,7 @@
        case '002|' %slider data
            connection.slider_data_count = connection.slider_data_count+1;
            connection.slider_data(connection.slider_data_count, 1:5) = connection.test_id;
-           connection.slider_data(connection.slider_data_count, 6:41) = data(5:40);
+           connection.slider_data(connection.slider_data_count, 6:39) = data(5:38);
        case '011|' %no HMD detected
            fprintf("Warning: No HMD is detected and/or enabled.\n");
            connection.hmd_enabled = 0;

@@ -22,6 +22,6 @@ public:
 	UFUNCTION(BlueprintCallable, Category="IHTAUnreal")
 	static bool writeToFile(TArray<FRotator> rotations, TArray<FVector> positions, FString fileName);
 
-	/*UFUNCTION(BlueprintCallable, Category = "IHTAUnreal")
-	static FString createFile(FString fileName, bool HMDEnable, float trackingFrequency);*/
+	UFUNCTION(BlueprintCallable, Category = "IHRAUnreal")
+	static TArray<FName> shuffleArray(TArray<FName> Array);
 };
