@@ -5,3 +5,8 @@ UnrealTCP is a framework for creating an interface between [Unreal Engine](https
 Data transmission is provided via a TCP connection with Matlab acting as a server. The framework consists of:
 - A plugin created for Unreal Engine
 - A Matlab application allowing for control of VR experiments
+
+# Todo
+- Create installer script (Python or Matlab)
+- Built version of IHTAUnreal Plugin (Unreal Marketplace)
+- Polishing & Cleanup
