@@ -6,7 +6,9 @@ Data transmission is provided via a TCP connection with Matlab acting as a serve
 - A plugin created for Unreal Engine
 - A Matlab application allowing for control of VR experiments
 
-# Todo
+For more information visit the [Wiki](https://github.com/Ocramrenegew/UnrealTCP/wiki)
+
+# To Do
 - Create installer script (Python or Matlab)
 - Built version of IHTAUnreal Plugin (Unreal Marketplace)
 - Polishing & Cleanup
